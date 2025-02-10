@@ -6,7 +6,7 @@
 #    By: fmontini <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/07 14:01:51 by fmontini          #+#    #+#              #
-#    Updated: 2025/02/07 14:01:55 by fmontini         ###   ########.fr        #
+#    Updated: 2025/02/10 17:22:08 by fmontini         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,6 +16,7 @@ CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
 SRCS = ft_printf.c \
+       printf_utils.c \
 
 OBJS = $(SRCS:.c=.o)
 
