@@ -16,7 +16,8 @@ CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
 SRCS = ft_printf.c \
-       printf_utils.c \
+       ft_printf_utils.c \
+	   ft_libft_utils.c \
 
 OBJS = $(SRCS:.c=.o)
 
