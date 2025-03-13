@@ -43,7 +43,10 @@ int main() {
 ## Requisiti  
 - Il codice deve rispettare la Norm di 42  
 - Non deve generare memory leaks  
-- Non deve usare funzioni non autorizzate (come `printf`, `sprintf`, etc.)  
+- Non deve usare funzioni non autorizzate (come `printf`, `sprintf`, etc.)
+
+## Votazione
+![gradeScreenshot](printf.png)
 
 ## Licenza  
 Questo progetto è parte del curriculum di 42 e segue le regole della scuola per la condivisione e l'utilizzo del codice.
